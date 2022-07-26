@@ -2,7 +2,6 @@ body{
     margin:0;
     padding:0;
     font-family:Arial;
-    margin-bottom:50px;
 }
 
 header{
@@ -171,69 +170,109 @@ nav a{
 }
 
 .widget_body{
-    font-size:14px;
-    margin-bottom:20px;
-    color:#6e6e6e;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #6e6e6e;
 }
 .widget_departments{
-    width:145px;
-    height:145px;
-    background-color:#39aae1;
-    margin:0 20px 20px 0;
+    width: 145px;
+    height: 145px;
+    background-color: #39aae1;
+    margin: 0 20px 20px 0;
 }
 .widget_departments:last-child{
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 .flex{
-    display:flex;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 .information{
-    padding:15px 0;
-    border-top:1px solid #d5d0d0;
-    font-size:14px;
-    color:#6e6e6e;
+    padding: 15px 0;
+    border-top: 1px solid #d5d0d0;
+    font-size: 14px;
+    color: #6e6e6e;
 }
 .information:last-child{
-    border-bottom:1px solid #d5d0d0;
+    border-bottom: 1px solid #d5d0d0;
 }
 .information a, .information a:visited{
-    color:#5293b9;
+    color: #5293b9;
 }
 article{
-    flex:1;
-    min-width:300px;
-    padding-right:20px;
+    flex: 1;
+    min-width: 300px;
+    padding-right: 20px;
 }
 article a{
-    text-decoration:none;
+    text-decoration: none;
 }
 .news_data{
-    display:flex;
-    margin-top:25px;
-    font-size:11px;
-    color:#fff;
+    display: flex;
+    margin-top :25px;
+    font-size: 11px;
+    color: #fff;
 }
 .news_posted_at{ 
-    background-color:#2b4c99;
-    padding:10px;
-    margin-right:2px;
+    background-color: #2b4c99;
+    padding: 10px;
+    margin-right: 2px;
 }
 .news_coments{
-    background-color:#39aae1;
-    padding:10px;
+    background-color: #39aae1;
+    padding: 10px;
 }
 .news_thumbnail img{
-    width:100%;
-    height:auto;
-    padding-top:25px;
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
 }
 .news_title{
     font-size:23px;
-    color:#000;
-    margin:25px 0;
+    color: #000;
+    margin: 25px 0;
 }
 .news_resume{
-    line-height:20px;
-    color:#5c5c5c;
+    line-height: 20px;
+    color: #5c5c5c;
+}
+footer{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.flexColumn{
+    flex-direction:column;
+}
+.footer_menu{
+    display: flex;
+    color: #fff;
+    height: 120px;
+}
+.footer_area{
+    display: flex;
+    margin-top: 30px;
+}
+.footer_area_item, .footer_contato, .footer_endereco{
+    flex: 1; 
+}
+.footer_tittle{
+    color: #fff;
+    margin-bottom: 5px;
+}
+.footer_desc, .footer_endereco, .footer_contato{
+    margin-top: 30px;
+    color: rgb(105, 105, 105);
+    font-size: 13px;
+}
+.footer_info{
+    display: flex;
+    flex: 1;
+}
+.footer_contato{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.email{
+    color: rgb(180, 180, 180);
 }
