@@ -253,6 +253,9 @@ footer{
     display: flex;
     margin-top: 30px;
 }
+.footer_area_item{
+    margin-bottom: 30px;
+}
 .footer_area_item, .footer_contato, .footer_endereco{
     flex: 1; 
 }
@@ -262,8 +265,9 @@ footer{
 }
 .footer_desc, .footer_endereco, .footer_contato{
     margin-top: 30px;
-    color: rgb(105, 105, 105);
+    color: rgb(105, 105, 105) !important;
     font-size: 13px;
+    line-height: 1.5;
 }
 .footer_info{
     display: flex;
@@ -275,4 +279,33 @@ footer{
 }
 .email{
     color: rgb(180, 180, 180);
+}
+.footer_posts, .footer_posts_desc a, .copyright{
+    color: rgb(175, 175, 175);
+}
+.footer_posts_desc a{
+    text-decoration: none;
+}
+.footer_posts, .footer_day, .footer_posts_desc{
+    margin-left: 25px;
+}
+.footer_day{
+    font-size: 11px;
+    color: #39aae1;
+}
+.material-symbols-rounded{
+    position: absolute;
+    font-size: 12px !important;
+    margin: 4px 0 0 3px;
+    color: #fff;
+}
+.border{
+    border-bottom: 1px solid rgb(82, 82, 82);
+    width: 100%;
+}
+.border, .copyright{
+    margin-bottom: 15px;
+}
+.copyright{
+    font-size: 11px;
 }
