@@ -1,0 +1,24 @@
+@media (max-width:730px){
+    .banner_headline, #geral, .footer_area{
+        padding: 20px;
+    }
+    .banner_headline h1{
+        font-size: 55px;
+    }
+    .banner_headline h2{
+        font-size: 17px;
+    }
+    #banner{
+        height: auto;
+    }
+    .banner_options, .footer_menu{
+        height: auto;
+        flex-direction: column;
+    }
+    .container, .footer_area{
+        flex-direction: column;
+    }
+    .copyright{
+        margin-left: 20px;
+    }
+}
