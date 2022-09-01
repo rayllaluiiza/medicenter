@@ -9,6 +9,18 @@
 
     <title>MediCenter</title>
 
+    <script>
+        function menu(){
+            let displayMenu = document.querySelector('.menu nav ul');
+            
+            if(displayMenu.style.display == 'flex'){
+                displayMenu.style.display = 'none';
+            } else{
+                displayMenu.style.display = 'flex';
+            }
+        }
+    </script>
+
 </head>
 <body>
 
@@ -20,6 +32,11 @@
 
             <div class="menu">
                 <nav>
+                    <div class="menuMobile" onclick="menu();">
+                        <div class="mm_linha"></div>
+                        <div class="mm_linha"></div>
+                        <div class="mm_linha"></div>
+                    </div>
                     <ul>
                         <li><a class="active" href="#">HOME</a></li>
                         <li><a href="#">BLOG</a></li>
